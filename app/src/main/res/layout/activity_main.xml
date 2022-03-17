@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Viaje">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:fontFamily="sans-serif-black"
+            android:gravity="center"
+            android:text="Viaje"
+            android:textColor="#05423C"
+            android:textSize="30dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etcodviaje"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:hint="Codigo del viaje"
+
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etciudaddestino"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:hint="Ciudad Destino"
+
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etcantpersonas"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:hint="Cantidad de Personas"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <EditText
+                android:id="@+id/etvalorpersona"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:hint="Valor por persona"
+
+                android:inputType="text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnadicionar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#1763D5"
+                android:text="Guardar"
+                android:textAllCaps="false"
+
+                />
+
+            <Button
+                android:id="@+id/btnconsultar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#1763D5"
+                android:text="Consultar"
+                android:textAllCaps="false"
+
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnanular"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#C80F0F"
+                android:text="Anular"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btncancelar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="#1763D5"
+                android:text="Cancelar"
+
+
+                android:textAllCaps="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
